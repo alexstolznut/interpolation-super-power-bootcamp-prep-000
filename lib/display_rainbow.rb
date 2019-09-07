@@ -1,7 +1,8 @@
 # Write your #display_rainbow method here
 def display_rainbow(colors)
   string = ""
-  colors.length.times-1 do |x|
+  length = colors.size -1
+  color.times do |x|
     string+= x[0,1].capitalize + ': ' + x + ', '
   end
   # string+=colors[colors.length][0,1].capitalize + ': ' + colors[colors.length] +'.'
