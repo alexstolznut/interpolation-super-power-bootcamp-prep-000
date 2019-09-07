@@ -2,5 +2,5 @@
 def display_raindbow(colors)
   string = ""
   colors.each {|x| string+= x[0,1].capitalize + ': ' + x + ', '}
-  puts string
+  puts string[0,-1] + '.'
  end
